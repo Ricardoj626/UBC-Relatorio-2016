@@ -183,9 +183,9 @@ body.open:after {
 
 .b-container {
   height:60px;
-  left:20px;
+  left:30px;
   position:absolute;
-  top:20px;
+  top:30px;
 }
 
 .b-container:hover:not(.open) .bun-bottom, .b-container:hover:not(.open) .bun-mid, .b-container:hover:not(.open) .bun-top {

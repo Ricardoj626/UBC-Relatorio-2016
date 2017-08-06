@@ -35,6 +35,10 @@ body {
     height: 100%;
 }
 
+.b-container {
+  left:15px;
+  top:15px;
+}
 .video-background {
   background: #000;
   position: fixed;
@@ -363,16 +367,16 @@ body {
 
 .btn-menu {
     height:40px;
-    left:40px;
+    left:35px;
     position:absolute;
-    top:75px;
+    top:70px;
     z-index: 6000;
 }
 .btn-menu2 {
     height:40px;
-    left:40px;
+    left:35px;
     position:absolute;
-    top:115px;
+    top:110px;
     z-index: 6000;
 }
 
@@ -387,7 +391,7 @@ body {
 }
 
 .img-logo {
-    width:50%;
+    width:60%;
     padding-top: 60px;
     padding-bottom: 60px
 }
