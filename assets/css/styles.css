@@ -21,6 +21,8 @@ body {
     padding: 0;
 }
 
+
+
 .font-SanukTF {
     font-family: SanukTF-Bold
 }
@@ -216,7 +218,18 @@ body {
     -ms-overflow-x: hidden;
     overflow-y: scroll;
     -ms-overflow-y: scroll;
-    height: 93%;
+    height: 95%;
+}
+
+.scroll-slide::-webkit-scrollbar-track {
+    background-color: #ffffff;
+}
+.scroll-slide::-webkit-scrollbar {
+    width: 6px;
+    background: #bbbbbb;
+}
+.scroll-slide::-webkit-scrollbar-thumb {
+    background: #bbbbbb;
 }
 
 
