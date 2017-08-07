@@ -212,6 +212,41 @@ body {
 
 }
 
+.swiper-button-capitulo-video{
+    position:absolute;
+    right:3%;
+    top:47%;
+    width:34px;
+    height:34px;
+    margin-top:-22px;
+    z-index:10;
+    cursor:pointer;
+    -moz-background-size:27px 44px;
+    -webkit-background-size:27px 44px;
+    background-size:27px 44px;
+    background-position:top;
+    background-repeat:no-repeat;
+
+}
+
+.swiper-button-voltar-video{
+    position:absolute;
+    left:3%;
+    top:47%;
+    width:34px;
+    height:34px;
+    margin-top:-22px;
+    z-index:10;
+    cursor:pointer;
+    -moz-background-size:27px 44px;
+    -webkit-background-size:27px 44px;
+    background-size:27px 44px;
+    background-position:top;
+    background-repeat:no-repeat;
+
+
+}
+
 .scroll-slide {
     -webkit-overflow-scrolling:auto;
     overflow-x: hidden;
