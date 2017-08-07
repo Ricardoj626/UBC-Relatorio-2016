@@ -141,18 +141,6 @@ body {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-
-    overflow-x: hidden;
-    overflow-y: auto;
-}
-
-.swiper-slide.slide-0-1,.swiper-slide.slide-1-1,.swiper-slide.slide-2-1 {
-        overflow-x: hidden;
-    overflow-y: hidden;
-}
-.swiper-slide.slide-3-1,.swiper-slide.slide-4-1,.swiper-slide.slide-5-1,.swiper-slide.slide-6-1{
-        overflow-x: hidden;
-    overflow-y: hidden;
 }
 .swiper-button-next{
     position:absolute;
@@ -222,7 +210,11 @@ body {
 
 }
 
-
+.scroll-slide {
+    overflow: visible;
+    overflow-x: hidden;
+    height: 93%;
+}
 
 
 
