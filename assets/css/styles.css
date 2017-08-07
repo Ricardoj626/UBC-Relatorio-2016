@@ -211,8 +211,20 @@ body {
 }
 
 .scroll-slide {
-    overflow: visible;
     overflow-x: hidden;
+    -ms-overflow-x: hidden;
+    overflow-y: scroll;
+    -ms-overflow-y: scroll;
+    height: 93%;
+}
+.scroll-slide2 {
+    overflow-x: hidden;
+    overflow-y: visible;
+    height: 93%;
+}
+.scroll-slide3 {
+    overflow-x: hidden;
+    overflow-y: inherit;
     height: 93%;
 }
 
