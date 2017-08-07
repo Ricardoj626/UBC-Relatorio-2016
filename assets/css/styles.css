@@ -225,7 +225,7 @@ body {
     background-color: #ffffff;
 }
 .scroll-slide::-webkit-scrollbar {
-    width: 6px;
+    width: 12px;
     background: #bbbbbb;
 }
 .scroll-slide::-webkit-scrollbar-thumb {
