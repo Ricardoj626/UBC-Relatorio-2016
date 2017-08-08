@@ -251,21 +251,21 @@ body {
     -webkit-overflow-scrolling:auto;
     overflow-x: hidden;
     -ms-overflow-x: hidden;
-    overflow-y: scroll;
-    -ms-overflow-y: scroll;
+    overflow-y: hidden;
+    -ms-overflow-y: hidden;
     height: 95%;
 }
 
-.scroll-slide::-webkit-scrollbar-track {
-    background-color: #ffffff;
-}
-.scroll-slide::-webkit-scrollbar {
-    width: 12px;
-    background: #bbbbbb;
-}
-.scroll-slide::-webkit-scrollbar-thumb {
-    background: #bbbbbb;
-}
+/*.scroll-slide::-webkit-scrollbar-track {*/
+    /*background-color: #ffffff;*/
+/*}*/
+/*.scroll-slide::-webkit-scrollbar {*/
+    /*width: 12px;*/
+    /*background: #bbbbbb;*/
+/*}*/
+/*.scroll-slide::-webkit-scrollbar-thumb {*/
+    /*background: #bbbbbb;*/
+/*}*/
 
 
 
