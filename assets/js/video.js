@@ -26,6 +26,7 @@ function onYouTubeIframeAPIReady() {
         height: '360',
         width: '640',
         videoId: 'A6DYtluTjUw',
+        playerVars: { 'rel': 0/*, 'controls': 0*/ },
 
         events: {
             'onReady': onPlayerReady,
@@ -45,7 +46,7 @@ function onPlayerReady(event) {
 var done = false;
 function onPlayerStateChange(event) {
     if (event.data == YT.PlayerState.PLAYING && !done) {
-        setTimeout(stopVideo, 75000);
+        setTimeout(stopVideo, 73500);
         done = true;
     }
 }
